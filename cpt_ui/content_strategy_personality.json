@@ -1,0 +1,46 @@
+{
+  "content_strategy_personality":{
+    "name":"content_strategy_personality",
+    "label":"Personligheter",
+    "singular_label":"Personlighet",
+    "description":"Anger f\u00f6r vilka personlighetstyper en artikel \u00e4r skriven.",
+    "public":"true",
+    "hierarchical":"false",
+    "show_ui":"true",
+    "show_in_menu":"true",
+    "show_in_nav_menus":"false",
+    "query_var":"true",
+    "query_var_slug":"",
+    "rewrite":"true",
+    "rewrite_slug":"",
+    "rewrite_withfront":"1",
+    "rewrite_hierarchical":"0",
+    "show_admin_column":"false",
+    "show_in_rest":"false",
+    "show_in_quick_edit":"true",
+    "rest_base":"",
+    "labels":{
+      "menu_name":"Personligheter",
+      "all_items":"Alla personligheter",
+      "edit_item":"Redigera personlighet",
+      "view_item":"Visa personligheter",
+      "update_item":"Uppdatera personlighetsnamn",
+      "add_new_item":"Skapa personlighet",
+      "new_item_name":"Nytt personlighetsnamn",
+      "parent_item":"\u00d6verordnad personlighet",
+      "parent_item_colon":"\u00d6verordnad personlighet:",
+      "search_items":"S\u00f6r personlighet",
+      "popular_items":"Popul\u00e4ra personligheter",
+      "separate_items_with_commas":"Separera personligheter med kommatecken",
+      "add_or_remove_items":"L\u00e4gg till eller ta bort personligheter",
+      "choose_from_most_used":"V\u00e4lj fr\u00e5n mest anv\u00e4nda personligheter",
+      "not_found":"Hittar ingen personlighet",
+      "no_terms":"Inga personligheter",
+      "items_list_navigation":"Navigera personlighetslista",
+      "items_list":"personlighetslista"
+    },
+    "object_types":[
+      "post"
+    ]
+  }
+}

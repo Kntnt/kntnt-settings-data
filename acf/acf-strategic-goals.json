@@ -1,0 +1,91 @@
+[
+    {
+        "key": "group_59b2bae6ba7b4",
+        "title": "Strategiskt mål",
+        "fields": [
+            {
+                "key": "field_59b2bb1bcc4ab",
+                "label": "Roll",
+                "name": "role",
+                "type": "taxonomy",
+                "instructions": "Ange vilken roll som artikeln är tänkt för.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "taxonomy": "content_strategy_role",
+                "field_type": "checkbox",
+                "allow_null": 0,
+                "add_term": 0,
+                "save_terms": 1,
+                "load_terms": 1,
+                "return_format": "id",
+                "multiple": 0
+            },
+            {
+                "key": "field_59b2bbb4cc4ac",
+                "label": "Personlighet",
+                "name": "personality",
+                "type": "taxonomy",
+                "instructions": "Ange vilken personlighet som artikeln är tänkt för.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "taxonomy": "content_strategy_personality",
+                "field_type": "checkbox",
+                "allow_null": 0,
+                "add_term": 0,
+                "save_terms": 1,
+                "load_terms": 1,
+                "return_format": "id",
+                "multiple": 0
+            },
+            {
+                "key": "field_59b2bc9acc4ad",
+                "label": "Steg",
+                "name": "step",
+                "type": "taxonomy",
+                "instructions": "Ange vilket steg i beslutsprocessen som artikeln är tänkt för.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "taxonomy": "content_strategy_step",
+                "field_type": "radio",
+                "allow_null": 0,
+                "add_term": 0,
+                "save_terms": 1,
+                "load_terms": 1,
+                "return_format": "id",
+                "multiple": 0
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "post"
+                }
+            ]
+        ],
+        "menu_order": 1,
+        "position": "side",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "field",
+        "hide_on_screen": "",
+        "active": 1,
+        "description": ""
+    }
+]

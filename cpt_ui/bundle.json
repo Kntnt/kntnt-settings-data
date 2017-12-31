@@ -1,0 +1,46 @@
+{
+  "bundle":{
+    "name":"bundle",
+    "label":"Buntar",
+    "singular_label":"Bunt",
+    "description":"Skapa en bunt och anv\u00e4nd den f\u00f6r alla artiklar som ing\u00e5r i en serie ett tema eller liknande f\u00f6r att skapa ett artikelarkiv.",
+    "public":"true",
+    "hierarchical":"false",
+    "show_ui":"true",
+    "show_in_menu":"true",
+    "show_in_nav_menus":"true",
+    "query_var":"true",
+    "query_var_slug":"",
+    "rewrite":"true",
+    "rewrite_slug":"bunt",
+    "rewrite_withfront":"1",
+    "rewrite_hierarchical":"0",
+    "show_admin_column":"false",
+    "show_in_rest":"false",
+    "show_in_quick_edit":"true",
+    "rest_base":"",
+    "labels":{
+      "menu_name":"Buntar",
+      "all_items":"Alla buntar",
+      "edit_item":"Redigera bunt",
+      "view_item":"Visa bunt",
+      "update_item":"Uppdatera buntnamn",
+      "add_new_item":"Skapa ny bunt",
+      "new_item_name":"Nytt buntnamn",
+      "parent_item":"\u00d6verordnad bunt",
+      "parent_item_colon":"\u00d6verordnad bunt:",
+      "search_items":"S\u00f6k buntar",
+      "popular_items":"Popul\u00e4ra buntar",
+      "separate_items_with_commas":"Separera buntar med kommatecken",
+      "add_or_remove_items":"L\u00e4gg till eller ta bort buntar",
+      "choose_from_most_used":"V\u00e4lj bland mest anv\u00e4nda buntar",
+      "not_found":"Hittar ingen bunt",
+      "no_terms":"Ingen bunt",
+      "items_list_navigation":"Navigera buntlista",
+      "items_list":"Buntlista"
+    },
+    "object_types":[
+      "post"
+    ]
+  }
+}

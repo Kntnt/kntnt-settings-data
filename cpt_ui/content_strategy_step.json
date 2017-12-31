@@ -1,0 +1,46 @@
+{
+  "content_strategy_step":{
+    "name":"content_strategy_step",
+    "label":"Steg",
+    "singular_label":"Steg",
+    "description":"Anger f\u00f6r vilka steg en artikel \u00e4r skriven.",
+    "public":"true",
+    "hierarchical":"false",
+    "show_ui":"true",
+    "show_in_menu":"true",
+    "show_in_nav_menus":"false",
+    "query_var":"true",
+    "query_var_slug":"",
+    "rewrite":"true",
+    "rewrite_slug":"",
+    "rewrite_withfront":"1",
+    "rewrite_hierarchical":"0",
+    "show_admin_column":"false",
+    "show_in_rest":"false",
+    "show_in_quick_edit":"true",
+    "rest_base":"",
+    "labels":{
+      "menu_name":"Steg",
+      "all_items":"Alla steg",
+      "edit_item":"Redigera steg",
+      "view_item":"Visa steg",
+      "update_item":"Uppdatera steg",
+      "add_new_item":"Skapa steg",
+      "new_item_name":"Nytt stegnamn",
+      "parent_item":"\u00d6verordnat steg",
+      "parent_item_colon":"\u00d6verordnat steg:",
+      "search_items":"S\u00f6k steg",
+      "popular_items":"Popul\u00e4ra steg",
+      "separate_items_with_commas":"Separera steg med kommatecken",
+      "add_or_remove_items":"L\u00e4gg till eller ta bort steg",
+      "choose_from_most_used":"V\u00e4lj fr\u00e5n mest anv\u00e4nda steg",
+      "not_found":"Hittar inget steg",
+      "no_terms":"Inga steg",
+      "items_list_navigation":"Navigera steglista",
+      "items_list":"Steglista"
+    },
+    "object_types":[
+      "post"
+    ]
+  }
+}

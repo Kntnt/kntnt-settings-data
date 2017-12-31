@@ -1,0 +1,46 @@
+{
+  "content_strategy_role":{
+    "name":"content_strategy_role",
+    "label":"Roller",
+    "singular_label":"Roll",
+    "description":"Anger f\u00f6r vilka roller en artikel \u00e4r skriven.",
+    "public":"true",
+    "hierarchical":"false",
+    "show_ui":"true",
+    "show_in_menu":"true",
+    "show_in_nav_menus":"false",
+    "query_var":"true",
+    "query_var_slug":"",
+    "rewrite":"false",
+    "rewrite_slug":"",
+    "rewrite_withfront":"1",
+    "rewrite_hierarchical":"0",
+    "show_admin_column":"false",
+    "show_in_rest":"false",
+    "show_in_quick_edit":"true",
+    "rest_base":"",
+    "labels":{
+      "menu_name":"Roller",
+      "all_items":"Alla roller",
+      "edit_item":"Redigera roller",
+      "view_item":"Visa roll",
+      "update_item":"Uppdatera roll",
+      "add_new_item":"Skapa ny roll",
+      "new_item_name":"Nytt rollnamn",
+      "parent_item":"\u00d6verordnad roll",
+      "parent_item_colon":"\u00d6verordnad roll:",
+      "search_items":"S\u00f6k roller",
+      "popular_items":"Popul\u00e4ra roller",
+      "separate_items_with_commas":"Separera roller med kommatecken",
+      "add_or_remove_items":"L\u00e4gg till eller ta bort roller",
+      "choose_from_most_used":"V\u00e4lj fr\u00e5n mest anv\u00e4nda roller",
+      "not_found":"Hittar ingen roll",
+      "no_terms":"Inga roller",
+      "items_list_navigation":"Navigera rollista",
+      "items_list":"Rollista"
+    },
+    "object_types":[
+      "post"
+    ]
+  }
+}

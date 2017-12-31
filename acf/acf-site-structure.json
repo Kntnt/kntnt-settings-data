@@ -1,0 +1,91 @@
+[
+    {
+        "key": "group_59b2b1535bd84",
+        "title": "Struktur",
+        "fields": [
+            {
+                "key": "field_59b2b30664e99",
+                "label": "Sektion",
+                "name": "sektion",
+                "type": "taxonomy",
+                "instructions": "Ange sektion som artikeln ska synas under.",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "taxonomy": "category",
+                "field_type": "select",
+                "allow_null": 0,
+                "add_term": 0,
+                "save_terms": 1,
+                "load_terms": 1,
+                "return_format": "id",
+                "multiple": 0
+            },
+            {
+                "key": "field_59b2b34064e9a",
+                "label": "Bunt",
+                "name": "bunt",
+                "type": "taxonomy",
+                "instructions": "Ange bunt (artikelserie och liknande) som artikeln ska höra till (om någon alls).",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "taxonomy": "bundle",
+                "field_type": "select",
+                "allow_null": 0,
+                "add_term": 1,
+                "save_terms": 1,
+                "load_terms": 1,
+                "return_format": "id",
+                "multiple": 0
+            },
+            {
+                "key": "field_59b2b188fae86",
+                "label": "Ämnen",
+                "name": "tags",
+                "type": "taxonomy",
+                "instructions": "Ange ett eller flera ämnen som artikeln berör. Artiklar som delar minst ett ämne dyker upp i varandras rutor med rekommenderad läsning.",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "taxonomy": "post_tag",
+                "field_type": "checkbox",
+                "allow_null": 0,
+                "add_term": 1,
+                "save_terms": 1,
+                "load_terms": 1,
+                "return_format": "id",
+                "multiple": 0
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "post"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "side",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "field",
+        "hide_on_screen": "",
+        "active": 1,
+        "description": ""
+    }
+]
